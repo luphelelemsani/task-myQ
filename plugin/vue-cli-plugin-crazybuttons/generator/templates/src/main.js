@@ -9,7 +9,7 @@ Vue.component("VBtn", VBtn);
 
 Vue.component("VAlert", VAlert);
 
-console.log("Preset global");
+console.log("Preset <%= preset %>");
 
 createApp(App).use(router).mount("#app");
 s;
