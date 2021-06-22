@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <Button />
-    <h1>hwsadbzihd</h1>
+    <Header />
+    <h1>By Andile Msani</h1>
+    <router-view></router-view>
   </div>
 </template>
 <script>
-import Button from "./Button";
-
+import Header from "./components/Header.vue";
 export default {
   name: "App",
-  components: {
-    Button,
-  },
+  components: { Header },
 };
 </script>
 <style>

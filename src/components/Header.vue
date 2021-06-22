@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="container">
-      <div><h3>MyLogo</h3></div>
+      <div><h3>MyQuest</h3></div>
       <div>
         <ul>
           <li><router-link to="/">Home</router-link></li>
@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Header",
   props: {},
 };
 </script>
